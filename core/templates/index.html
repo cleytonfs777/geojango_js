@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block 'content' %}
+<div class="container">
+    <div class="row">
+        <h1>GEOTORRES</h1>
+    </div>
+    <div class="row">
+        <h3>Acesse o mapa geral de torres</h3>
+    </div>
+    <div class="row">
+        <buton class="btn btn-secondary">
+            <a id="link-mapa" href="{% url 'mapa' %}">Entrar</a>
+        </buton>
+    </div>
+</div>
+
+{% endblock %}

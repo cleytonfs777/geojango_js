@@ -1,0 +1,19 @@
+body {
+    background: rgb(53, 53, 53);
+    color: rgb(1, 136, 136);
+
+}
+
+a#link-mapa {
+    text-decoration: none;
+    color: white;
+}
+
+#map {
+    margin-top: 0.5rem;
+    padding: 0;
+    width: 100%;
+    min-height: calc(100vh - 75px);
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+}
